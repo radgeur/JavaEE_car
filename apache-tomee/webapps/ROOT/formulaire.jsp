@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-    	<%=
-    		request.getParameter("titre")
-    		request.getParameter("auteur")
-    		request.getParameter("annee")
-    	%>
+    	
+    		<%=request.getParameter("titre")%>
+    		<%=request.getParameter("auteur")%>
+    		<%=request.getParameter("annee")%>
+    	
     </body>
 </html>

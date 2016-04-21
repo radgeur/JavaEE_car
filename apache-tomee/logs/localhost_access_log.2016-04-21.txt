@@ -1,0 +1,12 @@
+127.0.0.1 - - [21/Apr/2016:12:00:48 +0200] "GET /formulaire.html HTTP/1.1" 200 519
+127.0.0.1 - - [21/Apr/2016:12:00:48 +0200] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [21/Apr/2016:12:00:48 +0200] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [21/Apr/2016:12:00:53 +0200] "POST /reception.jsp HTTP/1.1" 500 3719
+127.0.0.1 - - [21/Apr/2016:12:02:07 +0200] "POST /reception.jsp HTTP/1.1" 404 1020
+127.0.0.1 - - [21/Apr/2016:12:02:37 +0200] "POST /reception.jsp HTTP/1.1" 404 1020
+127.0.0.1 - - [21/Apr/2016:12:02:42 +0200] "GET /formulaire.html HTTP/1.1" 200 506
+127.0.0.1 - - [21/Apr/2016:12:02:46 +0200] "GET /formulaire.jsp?titre=erhe&auteur=rthtyj&annee=ytjh HTTP/1.1" 500 3723
+127.0.0.1 - - [21/Apr/2016:12:03:04 +0200] "GET /formulaire.html HTTP/1.1" 304 -
+127.0.0.1 - - [21/Apr/2016:12:03:06 +0200] "GET /formulaire.jsp?titre=rhrt&auteur=jty&annee=ertger HTTP/1.1" 500 3374
+127.0.0.1 - - [21/Apr/2016:12:04:03 +0200] "GET /formulaire.html HTTP/1.1" 304 -
+127.0.0.1 - - [21/Apr/2016:12:04:06 +0200] "GET /formulaire.jsp?titre=edrger&auteur=hyj&annee=uyt HTTP/1.1" 200 265
