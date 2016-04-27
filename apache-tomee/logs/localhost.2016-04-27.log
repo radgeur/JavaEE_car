@@ -1,0 +1,3790 @@
+avr. 27, 2016 6:54:37 PM org.apache.catalina.core.ApplicationDispatcher invoke
+GRAVE: "Servlet.service()" pour la servlet jsp a lancé une exception
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Sring cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             Sring attribut = (String) request.getAttribute("test");
+13:             out.println(attribut);
+14:         %>
+15:     </body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:476)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:657)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 6:54:37 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [ServletRegisterBook] in context with path [] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Sring cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             Sring attribut = (String) request.getAttribute("test");
+13:             out.println(attribut);
+14:         %>
+15:     </body>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Sring cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             Sring attribut = (String) request.getAttribute("test");
+13:             out.println(attribut);
+14:         %>
+15:     </body>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:476)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:657)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:26)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:05:39 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:25)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:06:09 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:25)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:07:33 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:25)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:07:51 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:25)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:08:12 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:25)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:08:30 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NullPointerException
+	at BookBean.add(BookBean.java:23)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:30)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:12:04 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NullPointerException
+	at BookBean.add(BookBean.java:23)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:33)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:12:16 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NullPointerException
+	at BookBean.add(BookBean.java:23)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:33)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:13:56 PM org.apache.catalina.core.ApplicationContext log
+INFOS: La servlet ServletRegisterBook est marqué comme indisponible
+avr. 27, 2016 7:13:56 PM org.apache.catalina.core.StandardContext loadOnStartup
+GRAVE: La servlet  a généré une exception "load()"
+java.lang.Error: Unresolved compilation problems: 
+	The attribute value is undefined for the annotation type Stateless
+	Livre cannot be resolved to a variable
+
+	at BookBean.<init>(BookBean.java:15)
+	at ServletRegisterBook.<init>(ServletRegisterBook.java:20)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.webbeans.inject.InjectableConstructor.doInjection(InjectableConstructor.java:72)
+	at org.apache.webbeans.portable.InjectionTargetImpl.newInstance(InjectionTargetImpl.java:178)
+	at org.apache.webbeans.portable.InjectionTargetImpl.produce(InjectionTargetImpl.java:161)
+	at org.apache.webbeans.portable.AbstractProducer.produce(AbstractProducer.java:182)
+	at org.apache.webbeans.component.AbstractOwbBean.create(AbstractOwbBean.java:121)
+	at org.apache.openejb.core.WebContext.newInstance(WebContext.java:138)
+	at org.apache.tomee.catalina.JavaeeInstanceManager.newInstance(JavaeeInstanceManager.java:46)
+	at org.apache.tomee.catalina.JavaeeInstanceManager.newInstance(JavaeeInstanceManager.java:66)
+	at org.apache.tomee.catalina.JavaeeInstanceManager.newInstance(JavaeeInstanceManager.java:61)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1148)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5229)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5516)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4007)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.tomee.catalina.ProvisioningWebappLoader.backgroundProcess(ProvisioningWebappLoader.java:59)
+	at org.apache.tomee.catalina.LazyStopLoader.backgroundProcess(LazyStopLoader.java:105)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:15:09 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NullPointerException
+	at BookBean.add(BookBean.java:23)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:33)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:18:49 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NullPointerException
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:33)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:20:24 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NullPointerException
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:33)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:23:18 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NullPointerException
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:33)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:37:57 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [ServletRegisterBook] in context with path [] threw exception [L''exécution de la servlet a lancé une exception] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	The method init() is undefined for the type BeanItf
+
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:47:11 PM org.apache.catalina.core.ApplicationContext log
+INFOS: La servlet ServletDisplayBooks est marqué comme indisponible
+avr. 27, 2016 7:47:11 PM org.apache.catalina.core.StandardContext loadOnStartup
+GRAVE: La servlet  a généré une exception "load()"
+java.lang.ClassCastException: ServletDisplayBooks cannot be cast to javax.servlet.Servlet
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1148)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5229)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5516)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4007)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1482)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1465)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1649)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:328)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 7:52:42 PM org.apache.catalina.core.ApplicationContext log
+INFOS: La servlet ServletDisplayBooks est marqué comme indisponible
+avr. 27, 2016 7:52:42 PM org.apache.catalina.core.StandardContext loadOnStartup
+GRAVE: La servlet  a généré une exception "load()"
+java.lang.ClassCastException: ServletDisplayBooks cannot be cast to javax.servlet.Servlet
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1148)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5229)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5516)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4007)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.tomee.catalina.ProvisioningWebappLoader.backgroundProcess(ProvisioningWebappLoader.java:59)
+	at org.apache.tomee.catalina.LazyStopLoader.backgroundProcess(LazyStopLoader.java:105)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:01:53 PM org.apache.catalina.core.ApplicationContext log
+INFOS: La servlet ServletDisplayBooks est marqué comme indisponible
+avr. 27, 2016 8:01:53 PM org.apache.catalina.core.StandardContext loadOnStartup
+GRAVE: La servlet  a généré une exception "load()"
+java.lang.ClassCastException: ServletDisplayBooks cannot be cast to javax.servlet.Servlet
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1148)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5229)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5516)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4007)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.tomee.catalina.ProvisioningWebappLoader.backgroundProcess(ProvisioningWebappLoader.java:59)
+	at org.apache.tomee.catalina.LazyStopLoader.backgroundProcess(LazyStopLoader.java:105)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:04:33 PM org.apache.catalina.core.ApplicationContext log
+INFOS: La servlet ServletDisplayBooks est marqué comme indisponible
+avr. 27, 2016 8:04:33 PM org.apache.catalina.core.StandardContext loadOnStartup
+GRAVE: La servlet  a généré une exception "load()"
+java.lang.ClassCastException: ServletDisplayBooks cannot be cast to javax.servlet.Servlet
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1148)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5229)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5516)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4007)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.tomee.catalina.ProvisioningWebappLoader.backgroundProcess(ProvisioningWebappLoader.java:59)
+	at org.apache.tomee.catalina.LazyStopLoader.backgroundProcess(LazyStopLoader.java:105)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:04:44 PM org.apache.catalina.core.ApplicationContext log
+INFOS: La servlet ServletDisplayBooks est marqué comme indisponible
+avr. 27, 2016 8:04:44 PM org.apache.catalina.core.StandardContext loadOnStartup
+GRAVE: La servlet  a généré une exception "load()"
+java.lang.ClassCastException: ServletDisplayBooks cannot be cast to javax.servlet.Servlet
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1148)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5229)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5516)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4007)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.tomee.catalina.ProvisioningWebappLoader.backgroundProcess(ProvisioningWebappLoader.java:59)
+	at org.apache.tomee.catalina.LazyStopLoader.backgroundProcess(LazyStopLoader.java:105)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:05:24 PM org.apache.catalina.core.ApplicationContext log
+INFOS: La servlet ServletDisplayBooks est marqué comme indisponible
+avr. 27, 2016 8:05:24 PM org.apache.catalina.core.StandardContext loadOnStartup
+GRAVE: La servlet  a généré une exception "load()"
+java.lang.ClassCastException: ServletDisplayBooks cannot be cast to javax.servlet.Servlet
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1148)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5229)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5516)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4007)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.tomee.catalina.ProvisioningWebappLoader.backgroundProcess(ProvisioningWebappLoader.java:59)
+	at org.apache.tomee.catalina.LazyStopLoader.backgroundProcess(LazyStopLoader.java:105)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:05:45 PM org.apache.catalina.core.ApplicationContext log
+INFOS: La servlet ServletDisplayBooks est marqué comme indisponible
+avr. 27, 2016 8:05:45 PM org.apache.catalina.core.StandardContext loadOnStartup
+GRAVE: La servlet  a généré une exception "load()"
+java.lang.ClassCastException: ServletDisplayBooks cannot be cast to javax.servlet.Servlet
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1148)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5229)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5516)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4007)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.tomee.catalina.ProvisioningWebappLoader.backgroundProcess(ProvisioningWebappLoader.java:59)
+	at org.apache.tomee.catalina.LazyStopLoader.backgroundProcess(LazyStopLoader.java:105)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:05:55 PM org.apache.catalina.core.ApplicationContext log
+INFOS: La servlet ServletDisplayBooks est marqué comme indisponible
+avr. 27, 2016 8:05:55 PM org.apache.catalina.core.StandardContext loadOnStartup
+GRAVE: La servlet  a généré une exception "load()"
+java.lang.ClassCastException: ServletDisplayBooks cannot be cast to javax.servlet.Servlet
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1148)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5229)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5516)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4007)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.tomee.catalina.ProvisioningWebappLoader.backgroundProcess(ProvisioningWebappLoader.java:59)
+	at org.apache.tomee.catalina.LazyStopLoader.backgroundProcess(LazyStopLoader.java:105)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:06:06 PM org.apache.catalina.core.ApplicationContext log
+INFOS: La servlet ServletDisplayBooks est marqué comme indisponible
+avr. 27, 2016 8:06:06 PM org.apache.catalina.core.StandardContext loadOnStartup
+GRAVE: La servlet  a généré une exception "load()"
+java.lang.ClassCastException: ServletDisplayBooks cannot be cast to javax.servlet.Servlet
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1148)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5229)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5516)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4007)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.tomee.catalina.ProvisioningWebappLoader.backgroundProcess(ProvisioningWebappLoader.java:59)
+	at org.apache.tomee.catalina.LazyStopLoader.backgroundProcess(LazyStopLoader.java:105)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:14:52 PM org.apache.catalina.core.ApplicationDispatcher invoke
+GRAVE: "Servlet.service()" pour la servlet jsp a lancé une exception
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ">" to complete ReferenceType1
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Constructor call must be the first statement in a constructor
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+href cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+livres.a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "<", . expected
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable des
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+auteurs cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable out
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Syntax error on token ".", ; expected
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+The method write(String) is undefined for the type formulaire_jsp
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:476)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:657)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:36)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:14:52 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [ServletRegisterBook] in context with path [] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ">" to complete ReferenceType1
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Constructor call must be the first statement in a constructor
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+href cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+livres.a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "<", . expected
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable des
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+auteurs cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable out
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Syntax error on token ".", ; expected
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+The method write(String) is undefined for the type formulaire_jsp
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ">" to complete ReferenceType1
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Constructor call must be the first statement in a constructor
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+href cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+livres.a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "<", . expected
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable des
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+auteurs cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable out
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Syntax error on token ".", ; expected
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+The method write(String) is undefined for the type formulaire_jsp
+11:         <%
+12:             <a href="">Afficher la liste des livres</a>
+13:     		<a href="">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:476)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:657)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:36)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:15:22 PM org.apache.catalina.core.ApplicationDispatcher invoke
+GRAVE: "Servlet.service()" pour la servlet jsp a lancé une exception
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ">" to complete ReferenceType1
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Constructor call must be the first statement in a constructor
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+href cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+livres.a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "<", . expected
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable des
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+auteurs cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable out
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Syntax error on token ".", ; expected
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+The method write(String) is undefined for the type formulaire_jsp
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:476)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:657)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:36)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:15:22 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [ServletRegisterBook] in context with path [] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ">" to complete ReferenceType1
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Constructor call must be the first statement in a constructor
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+href cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+livres.a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "<", . expected
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable des
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+auteurs cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable out
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Syntax error on token ".", ; expected
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+The method write(String) is undefined for the type formulaire_jsp
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ">" to complete ReferenceType1
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Constructor call must be the first statement in a constructor
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+href cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+livres.a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "<", . expected
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable des
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+auteurs cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable out
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Syntax error on token ".", ; expected
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+The method write(String) is undefined for the type formulaire_jsp
+11:         <%
+12:             <a href="/displaybooks">Afficher la liste des livres</a>
+13:     		<a href="/displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:476)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:657)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:36)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:16:44 PM org.apache.catalina.core.ApplicationDispatcher invoke
+GRAVE: "Servlet.service()" pour la servlet jsp a lancé une exception
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ">" to complete ReferenceType1
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Constructor call must be the first statement in a constructor
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+href cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+livres.a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "<", . expected
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable des
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+auteurs cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable out
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Syntax error on token ".", ; expected
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+The method write(String) is undefined for the type formulaire_jsp
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:476)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:657)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:36)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:16:44 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() for servlet [ServletRegisterBook] in context with path [] threw exception [Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ">" to complete ReferenceType1
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Constructor call must be the first statement in a constructor
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+href cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+livres.a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "<", . expected
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable des
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+auteurs cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable out
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Syntax error on token ".", ; expected
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+The method write(String) is undefined for the type formulaire_jsp
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ">" to complete ReferenceType1
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert "super ( ) ;" to complete Statement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Constructor call must be the first statement in a constructor
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+href cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+livres.a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 12 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+9:             <input type="submit" value="valider"><br />
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "<", . expected
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Afficher cannot be resolved to a variable
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "la", ; expected
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+liste cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable des
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+auteurs cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+Syntax error on token "/", delete this token
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 13 dans le fichier jsp: /formulaire.jsp
+a cannot be resolved to a type
+10:         </form>
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Duplicate local variable out
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+Syntax error on token ".", ; expected
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Une erreur s'est produite à la ligne: 14 dans le fichier jsp: /formulaire.jsp
+The method write(String) is undefined for the type formulaire_jsp
+11:         <%
+12:             <a href="./displaybooks">Afficher la liste des livres</a>
+13:     		<a href="./displayauthors">Afficher la liste des auteurs</a>
+14:         %>
+15:     </body>
+16: </html>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:366)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:476)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:657)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:36)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:18:41 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+avr. 27, 2016 8:19:26 PM org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: "Servlet.service()" pour la servlet ServletRegisterBook a généré une exception
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at ServletRegisterBook.doGet(ServletRegisterBook.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+

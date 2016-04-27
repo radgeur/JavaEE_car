@@ -1,5 +1,5 @@
 <html>
-
+<%@ page pageEncoding="UTF-8" %>
 <%
 
 String author = request.getParameter("author");
@@ -14,9 +14,9 @@ if ( author != null ) {
 %>
 
 <form action="form.jsp">
-Auteur : <input type="text" name="author"><br/>
-Titre : <input type="text" name="title"><br/>
-Ann&eacute;e : <input type="text" name="year"><br/>
+    Titre:<input type="text" name="title" value="<%=request.getParameter("title")%>"><br />
+    Année:<input type="text" name="year" value="<%=request.getParameter("year")%>"><br />
+    Auteur:<input type="text" name="author" value="<%=request.getParameter("author")%>"><br />
 <input type="submit">
 </form>
 </html>

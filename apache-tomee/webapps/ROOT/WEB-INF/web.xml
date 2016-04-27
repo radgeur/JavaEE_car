@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0">
+    <servlet>
+      <servlet-name>ServletRegisterBook</servlet-name>
+      <servlet-class>ServletRegisterBook</servlet-class>
+      <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletRegisterBook</servlet-name>
+        <url-pattern>/registerbook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>ServletDisplayAuthors</servlet-name>
+      <servlet-class>ServletDisplayAuthors</servlet-class>
+      <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletDisplayAuthors</servlet-name>
+        <url-pattern>/displayauthors</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>ServletDisplayBooks</servlet-name>
+      <servlet-class>ServletDisplayBooks</servlet-class>
+      <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletDisplayBooks</servlet-name>
+        <url-pattern>/displaybooks</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>ServletInit</servlet-name>
+      <servlet-class>ServletInit</servlet-class>
+      <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletInit</servlet-name>
+        <url-pattern>/init</url-pattern>
+    </servlet-mapping>
+</web-app>
