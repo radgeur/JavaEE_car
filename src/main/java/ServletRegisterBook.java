@@ -1,6 +1,4 @@
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.List;
 
 import javax.ejb.EJB;
 import javax.servlet.ServletException;
@@ -9,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Class servlet for the Session
+ * Class servlet to can register a book
  *
  * @author DIARA Pierre-Claver, LEPRETRE Rémy
  *
@@ -19,6 +17,7 @@ public class ServletRegisterBook extends HttpServlet {
 
 	@EJB
 	private BeanItf bookManager;
+	private SessionItf sessionManager;
 	
 	public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException{
 		response.setContentType("text/html");
@@ -34,10 +33,16 @@ public class ServletRegisterBook extends HttpServlet {
 	    	message = "L'année doit être un nombre.";
 	    }
 	    
-	    //persist the book
-	    
-	    
 	    request.setAttribute("message", message);
+	    
+	    if(sessionManager.getCurrentSession()==null)
+	    	request.setAttribute("session", "<a href=\"./connexion\">Connexion</a><br />");
+	    else{
+	    	String liens = "<a href=\"./connexion\">Deconnexion</a><br />";
+	    	liens += "<a href=\"./connexion\">Deconnexion</a><br />";
+	    	request.setAttribute("session", liens);
+	    	
+	    }
 	    
 	    this.getServletContext().getRequestDispatcher( "/formulaire.jsp" ).forward( request, response );
     }

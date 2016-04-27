@@ -3,7 +3,7 @@ import java.util.List;
 import javax.ejb.Local;
 
 /**
- * interface to can instantiate a Session
+ * interface to can instantiate a Bean
  *
  * @author DIARA Pierre-Claver, LEPRETRE Rémy
  *

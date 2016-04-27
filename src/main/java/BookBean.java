@@ -6,7 +6,7 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
 /**
- * Class for the Session
+ * Class for the method on the table book
  *
  * @author DIARA Pierre-Claver, LEPRETRE Rémy
  *

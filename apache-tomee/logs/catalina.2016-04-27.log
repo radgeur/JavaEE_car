@@ -8896,3 +8896,89 @@ AVERTISSEMENT: The class "car.tp4.Book" listed in the openjpa.MetaDataFactory co
 ----------> Parent Classloader:
 org.apache.catalina.loader.StandardClassLoader@6aa8ceb6
 ; ignoring.
+avr. 27, 2016 11:51:09 PM org.apache.catalina.core.StandardContext reload
+INFOS: Le rechargement du contexte [] a démarré
+avr. 27, 2016 11:51:09 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: /home/radgeur/Documents/M1/S2/CAR/JavaEE_car/apache-tomee/webapps/ROOT
+avr. 27, 2016 11:51:09 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [] appears to have started a thread named [HSQLDB Timer @c001740] but has failed to stop it. This is very likely to create a memory leak.
+avr. 27, 2016 11:51:10 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/radgeur/Documents/M1/S2/CAR/JavaEE_car/apache-tomee/webapps/ROOT
+avr. 27, 2016 11:51:10 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb BookBean: EjbDeployment(deployment-id=BookBean)
+avr. 27, 2016 11:51:10 PM org.apache.openejb.config.AutoConfig deploy
+INFOS: Configuring PersistenceUnit(name=book-pu)
+avr. 27, 2016 11:51:10 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <jta-data-source> to Resource ID 'Default JDBC Database' from 'bookDatabase'
+avr. 27, 2016 11:51:10 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+avr. 27, 2016 11:51:10 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/radgeur/Documents/M1/S2/CAR/JavaEE_car/apache-tomee/webapps/ROOT" loaded.
+avr. 27, 2016 11:51:10 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/radgeur/Documents/M1/S2/CAR/JavaEE_car/apache-tomee/webapps/ROOT
+avr. 27, 2016 11:51:10 PM null
+INFOS: OpenJPA dynamically loaded a validation provider.
+avr. 27, 2016 11:51:10 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFOS: PersistenceUnit(name=book-pu, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 46ms
+avr. 27, 2016 11:51:10 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=BookBeanLocal) --> Ejb(deployment-id=BookBean)
+avr. 27, 2016 11:51:10 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean!BeanItf) --> Ejb(deployment-id=BookBean)
+avr. 27, 2016 11:51:10 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean) --> Ejb(deployment-id=BookBean)
+avr. 27, 2016 11:51:10 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@60438a68
+avr. 27, 2016 11:51:10 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+avr. 27, 2016 11:51:10 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 8 ms.
+avr. 27, 2016 11:51:10 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+avr. 27, 2016 11:51:10 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+avr. 27, 2016 11:51:10 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/radgeur/Documents/M1/S2/CAR/JavaEE_car/apache-tomee/webapps/ROOT)
+avr. 27, 2016 11:51:10 PM org.apache.catalina.core.StandardContext reload
+INFOS: Le rechargement de ce contexte est terminé
+avr. 27, 2016 11:51:30 PM org.apache.catalina.core.StandardContext reload
+INFOS: Le rechargement du contexte [] a démarré
+avr. 27, 2016 11:51:30 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFOS: Undeploying app: /home/radgeur/Documents/M1/S2/CAR/JavaEE_car/apache-tomee/webapps/ROOT
+avr. 27, 2016 11:51:30 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFOS: Configuring enterprise application: /home/radgeur/Documents/M1/S2/CAR/JavaEE_car/apache-tomee/webapps/ROOT
+avr. 27, 2016 11:51:31 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFOS: Auto-deploying ejb BookBean: EjbDeployment(deployment-id=BookBean)
+avr. 27, 2016 11:51:31 PM org.apache.openejb.config.AutoConfig deploy
+INFOS: Configuring PersistenceUnit(name=book-pu)
+avr. 27, 2016 11:51:31 PM org.apache.openejb.config.AutoConfig setJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <jta-data-source> to Resource ID 'Default JDBC Database' from 'bookDatabase'
+avr. 27, 2016 11:51:31 PM org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFOS: Adjusting PersistenceUnit book-pu <non-jta-data-source> to Resource ID 'Default Unmanaged JDBC Database' from 'null'
+avr. 27, 2016 11:51:31 PM org.apache.openejb.config.AppInfoBuilder build
+INFOS: Enterprise application "/home/radgeur/Documents/M1/S2/CAR/JavaEE_car/apache-tomee/webapps/ROOT" loaded.
+avr. 27, 2016 11:51:31 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Assembling app: /home/radgeur/Documents/M1/S2/CAR/JavaEE_car/apache-tomee/webapps/ROOT
+avr. 27, 2016 11:51:31 PM null
+INFOS: OpenJPA dynamically loaded a validation provider.
+avr. 27, 2016 11:51:31 PM org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory createDelegate
+INFOS: PersistenceUnit(name=book-pu, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 21ms
+avr. 27, 2016 11:51:31 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=BookBeanLocal) --> Ejb(deployment-id=BookBean)
+avr. 27, 2016 11:51:31 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean!BeanItf) --> Ejb(deployment-id=BookBean)
+avr. 27, 2016 11:51:31 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFOS: Jndi(name=global//BookBean) --> Ejb(deployment-id=BookBean)
+avr. 27, 2016 11:51:31 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFOS: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@60438a68
+avr. 27, 2016 11:51:31 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container is starting...
+avr. 27, 2016 11:51:31 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFOS: OpenWebBeans Container has started, it took 10 ms.
+avr. 27, 2016 11:51:31 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Created Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+avr. 27, 2016 11:51:31 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFOS: Started Ejb(deployment-id=BookBean, ejb-name=BookBean, container=Default Stateless Container)
+avr. 27, 2016 11:51:31 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFOS: Deployed Application(path=/home/radgeur/Documents/M1/S2/CAR/JavaEE_car/apache-tomee/webapps/ROOT)
+avr. 27, 2016 11:51:31 PM org.apache.catalina.core.StandardContext reload
+INFOS: Le rechargement de ce contexte est terminé

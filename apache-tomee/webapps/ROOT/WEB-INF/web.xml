@@ -47,4 +47,15 @@
         <servlet-name>ServletInit</servlet-name>
         <url-pattern>/init</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>ServletConnexion</servlet-name>
+      <servlet-class>ServletConnexion</servlet-class>
+      <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletConnexion</servlet-name>
+        <url-pattern>/connexion</url-pattern>
+    </servlet-mapping>
 </web-app>
