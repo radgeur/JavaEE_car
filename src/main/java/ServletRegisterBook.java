@@ -22,15 +22,22 @@ public class ServletRegisterBook extends HttpServlet {
 	
 	public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException{
 		response.setContentType("text/html");
-	    
+		String message = "Le livre a été correctement ajouté.";
 	    //catch the informations about the book
 	    String author = request.getParameter( "auteur" );
-	    int year = Integer.parseInt(request.getParameter( "annee" ));
 	    String title = request.getParameter( "titre" );
+	    try{
+	    	int year = Integer.parseInt(request.getParameter( "annee" ));
+	    	Book b = new Book(author, title, year);
+		    bookManager.add(b);
+	    } catch (Exception e) {
+	    	message = "L'année doit être un nombre.";
+	    }
 	    
 	    //persist the book
-	    Book b = new Book(author, title, year);
-	    bookManager.add(b);
+	    
+	    
+	    request.setAttribute("message", message);
 	    
 	    this.getServletContext().getRequestDispatcher( "/formulaire.jsp" ).forward( request, response );
     }

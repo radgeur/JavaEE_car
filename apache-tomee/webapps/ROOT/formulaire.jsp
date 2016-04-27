@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <%@ page pageEncoding="UTF-8" %>
+    <%@ page isErrorPage="true" %>
+    <%@ page errorPage = "formulaire.jsp" %>
     <body>
         <form action="/registerbook">
             Titre:<input type="text" name="titre" value="<%=request.getParameter("titre")%>"><br />
@@ -10,5 +12,9 @@
         </form>
         <a href="./displaybooks">Afficher la liste des livres</a><br />
     	<a href="./displayauthors">Afficher la liste des auteurs</a><br />
+    	<%
+    		String message = (String) request.getAttribute("message");
+            out.println(message);
+    	%>
     </body>
 </html>
