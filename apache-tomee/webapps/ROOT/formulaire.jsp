@@ -12,6 +12,7 @@
         </form>
         <a href="./displaybooks">Afficher la liste des livres</a><br />
     	<a href="./displayauthors">Afficher la liste des auteurs</a><br />
+    	<a href="./init">Initialiser la BDD</a><br />
     	<%
     		String message = (String) request.getAttribute("message");
             out.println(message);
